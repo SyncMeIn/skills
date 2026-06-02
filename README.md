@@ -86,7 +86,4 @@ SyncMein Skill 利用底层的 `BrowserContext` 级别的控制权：
 ## 🤝 贡献与支持
 
 欢迎提交 Pull Request 或 Issue。如果你觉得这个项目拯救了你的 Agent，请给它一个 ⭐️ **Star**！
-
-你目前的这个项目是打算作为开源工具库发布在 GitHub 上，还是作为你们内部 Agent 平台的说明文档？
-
-```
+客服微信： SyncMein 💁
