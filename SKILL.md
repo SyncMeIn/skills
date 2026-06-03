@@ -1,6 +1,6 @@
 ---
 name: syncmein-passwordless-login
-version: 1.0.0
+version: 1.0.1
 trigger_keywords: ["免密登录", "SyncMein", "注入登录态", "口令登录"]
 description: 配合 SyncMein 插件，在常用浏览器生成的ck口令。AI Agent 通过本skill，获取 Cookie/Storage 并注入浏览器，实现免密登录（静默会话克隆，不会挤下原设备）。本插件仅限用户本人账号、本人设备使用。
 ---
@@ -19,7 +19,7 @@ description: 配合 SyncMein 插件，在常用浏览器生成的ck口令。AI A
 
 ## 参数
 - `tokenCode` — SyncMein 免密口令（用户提供）
-- `domain` — 目标网站主域名（如 `jd.com`、`nr.kainy.cn`）
+- `domain` — 目标网站主域名（如 `open.kainy.cn`、`nr.kainy.cn`）
 
 ## API Endpoint
 ```
@@ -107,11 +107,11 @@ await page.goto(`https://${domain}`, { waitUntil: 'domcontentloaded', timeout: 1
 
 ## 示例
 
-**用户**: 帮我用 SyncMein 口令 C1ITBS9O7M 登录一下 jd.com。
+**用户**: 帮我用 SyncMein 口令 R5M1193G0C 登录一下 open.kainy.cn。
 
-**AI**: 正在为您执行 jd.com 的免密登录操作...
+**AI**: 正在为您执行 open.kainy.cn 的免密登录操作...
 1. 调用 SyncMein 接口获取会话数据 ✅
-2. 浏览器导航至 jd.com 建立环境 ✅
+2. 浏览器导航至 open.kainy.cn 建立环境 ✅
 3. 注入 Cookie（含 httpOnly）和 Storage ✅
 4. 刷新页面激活登录态 ✅
 
