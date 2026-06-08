@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🚀 SyncMein Skill: 跨端静默免密登录（安全受限版）</h1>
+  <h1>🚀 SyncMein Skill: 跨端静默免密登录</h1>
   <p>
     <strong>终结单点登录（SSO）互斥，为 AI Agent 实现真正的会话克隆与纯态复用</strong>
   </p>
